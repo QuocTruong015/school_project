@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên: Trương Ngọc Quốc"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStudentInfoMSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MSV: 22115053122239"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"/>
+    <ListView
+        android:id="@+id/lvMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
